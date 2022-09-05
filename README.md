@@ -29,6 +29,7 @@ At the beginning we had no idea what we should do. After some examples from our 
 
 ## Planning
 We started to give each of us some tasks we have to work at. We also made a Docs file with the keydates of the project, the milestones, the To-Do list, the requirements and the description of the project. 
+
 https://docs.google.com/document/d/1Q76CZHwCyf05I1FYw0I5LlIXezh8ZpCCi-Iak7Qj9XI/edit
 
 ## Decide
