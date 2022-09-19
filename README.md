@@ -31,7 +31,7 @@ The IPERKA system are different easy steps to follow while making a projekt. The
 
 ## Information
 
-At the beginning we had no idea what we should do. After some examples from our teacher we wanted to made code a calculator. We searched some informations about how to make a calculater but it is very complicated so we decided to make an other project. Timofey had the idea to make a Tic-Tac-Toe game on a website and we agreed. After a quick research we knew how to do it.
+At the beginning we had no idea what we should do. After some examples from our teacher we wanted to made code a calculator. We searched some informations about how to make a calculater but it is very complicated so we decided to make an other project. Timofey had the idea to make a Tic-Tac-Toe game on a website and we agreed. After a quick research we knew how to do it. 
 
 ---
 
