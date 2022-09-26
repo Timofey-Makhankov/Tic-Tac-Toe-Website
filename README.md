@@ -42,3 +42,5 @@ We started to give each of us some tasks we have to work at. We also made a Docs
 [Google Document Link](https://docs.google.com/document/d/1Q76CZHwCyf05I1FYw0I5LlIXezh8ZpCCi-Iak7Qj9XI/edit)
 
 ---
+
+## Evaluation
