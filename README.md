@@ -14,11 +14,11 @@
 
 1. Introduction
 2. Information
-3. Planning
-4. Evaluation
-5. Realize
-6. Check
-7. Evaluate
+3. Decision
+4. Planning
+5. Realization
+6. Checking
+7. Evaluation
 
 ---
 
@@ -43,4 +43,12 @@ We started to give each of us some tasks we have to work at. We also made a Docs
 
 ---
 
-## Evaluation
+## Decision
+
+The first and most inportant point is the decision, who does which task. We decided, that Aurora will do the userinterface in HTML and CSS, Timofey will do the backend programming with Java and J-Query and Ruben will do the text for the ReadMe file and make the final tests. We will also help each other if we need some help. Aurora decided to make the design with HTML and CSS because it's the only programming language she knows for frontend stuff. Timofey Decided to work with Java because he already did some stuff with Java and he uses J-Query for helping him to not write so much code. Ruben decide to write in a ReadMe file in our github, because everyone can change something in this file and it's easy for everyone to write in.
+
+
+
+
+
+
