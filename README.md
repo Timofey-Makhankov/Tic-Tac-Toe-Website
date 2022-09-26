@@ -15,7 +15,7 @@
 1. Introduction
 2. Information
 3. Planning
-4. Decide
+4. Evaluation
 5. Realize
 6. Check
 7. Evaluate
@@ -43,4 +43,4 @@ We started to give each of us some tasks we have to work at. We also made a Docs
 
 ---
 
-## Decide
+## Evaluation
