@@ -52,7 +52,3 @@ We started to give each of us some tasks we have to work at. We also made a Docs
 ---
 
 ## Realization
-
-
-
-
