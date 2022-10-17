@@ -4,15 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/Global.css" />
+    <link rel="stylesheet" href="styles/Game.css" />
     <title>Tic Tac Toe</title>
   </head>
   <body>
-    <div class="game">
-      <div class="navbar">
-        <div class="icon"></div>
-      </div>
-    </div>
+    <section class="display">
+      Player <span class="display-player playerX">X</span>'s turn
+    </section>
+    <section class="container">
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+    </section>
+    <section class="display announcer hide"></section>
+    <section class="controls">
+      <button id="reset">Reset</button>
+    </section>
   </body>
   <!-- * JQuery Plugin-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>

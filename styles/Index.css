@@ -1,0 +1,61 @@
+/* Default color scheme */
+:root {
+  --main-bg-color: #caeffc;
+  --main-text-color: #1c1c1c;
+  --main-bg-btn-color: #fcd568;
+  --main-bg-btn-hover: #cca53b;
+}
+
+/* Elements */
+
+td {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+}
+
+/* Classes */
+.button {
+  background-color: var(--main-bg-btn-color);
+  border-radius: 8px;
+  border: 4px solid black;
+  font-size: 20pt;
+  font-weight: 700;
+  margin: 6%;
+  margin-top: 20%;
+  padding: 5%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: var(--main-bg-btn-hover);
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.options > button {
+  flex: auto;
+}
+
+/* Id's */
+#credit {
+  font-size: 15pt;
+  font-weight: 400;
+  margin-top: 10%;
+  text-align: center;
+}
+
+#Title {
+  color: var(--main-text-color);
+  font-size: 40pt;
+  font-weight: 700;
+  margin-top: 3%;
+  text-align: center;
+}
