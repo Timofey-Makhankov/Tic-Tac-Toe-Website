@@ -8,6 +8,11 @@
 
 /* Elements */
 
+p {
+  margin: auto;
+  width: 80%;
+}
+
 /* Classes */
 .button {
   background-color: var(--main-bg-btn-color);
@@ -25,6 +30,10 @@
 .button:hover {
   cursor: pointer;
   background-color: var(--main-bg-btn-hover);
+}
+
+.button:focus {
+  background-color: var(--main-bg-btn-color);
 }
 
 .options {
@@ -47,7 +56,6 @@
 }
 
 #Title {
-  color: var(--main-text-color);
   font-size: 40pt;
   font-weight: 700;
   margin-top: 80px;

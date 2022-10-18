@@ -6,9 +6,11 @@
 .container {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 33% 33% 33%;
-    max-width: 300px;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 320px;
+    position: relative;
+
 }
 
 .playerX {
@@ -21,7 +23,7 @@
 
 
 .tile {
-    border: 1px solid black;
+    border: 3px solid black;
     min-width: 100px;
     min-height: 100px;
     display: flex;
