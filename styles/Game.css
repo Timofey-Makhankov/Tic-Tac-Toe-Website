@@ -1,34 +1,24 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    margin: 0 auto;
-    display: grid;
-    gap: 1px;
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 320px;
-    position: relative;
-
+  margin: 0 auto;
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 320px;
+  position: relative;
 }
-
-.playerX {
-    color: #09C372;
-}
-
-.playerO {
-    color: #498AFB;
-}
-
 
 .tile {
-    border: 3px solid black;
-    min-width: 100px;
-    min-height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    cursor: pointer;
+  border: 3px solid black;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  cursor: pointer;
 }

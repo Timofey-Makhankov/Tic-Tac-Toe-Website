@@ -1,11 +1,3 @@
-/* Default color scheme */
-:root {
-  --main-bg-color: #caeffc;
-  --main-text-color: #1c1c1c;
-  --main-bg-btn-color: #fcd568;
-  --main-bg-btn-hover: #cca53b;
-}
-
 /* Elements */
 
 p {
@@ -15,7 +7,8 @@ p {
 
 /* Classes */
 .button {
-  background-color: var(--main-bg-btn-color);
+  color: #1c1c1c;
+  background-color: #219EBC;
   border-radius: 8px;
   border: 4px solid black;
   font-size: 20pt;
@@ -27,13 +20,18 @@ p {
   text-decoration: none;
 }
 
-.button:hover {
-  cursor: pointer;
-  background-color: var(--main-bg-btn-hover);
+.button.darkmode {
+  color: #1c1c1c;
+  background-color: #FFB703;
 }
 
-.button:focus {
-  background-color: var(--main-bg-btn-color);
+.button:hover {
+  background-color: #26879e;
+  cursor: pointer;
+}
+
+.button.darkmode:hover {
+  background-color: #FB8500;
 }
 
 .options {

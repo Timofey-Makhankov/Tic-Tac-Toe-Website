@@ -3,25 +3,45 @@
 
 /* Default color scheme */
 :root {
-    /* White Mode */
-    --main-bg-color: #caeffc;
-    --main-text-color: #1c1c1c;
-    --main-bg-btn-color: #fcd568;
-    --main-bg-btn-hover: #cca53b;
-  }
+  /* Light Mode */
+  --main-bg-color: #8ECAE6;
+  --main-text-color: #1c1c1c;
+  --main-bg-btn-color: #219EBC;
+  --main-bg-btn-hover: #26879e;
+  /* Player Colors */
+  --X-Player-color: #d10404;
+  --O-Player-color: #2c39c9;
+
+  /* Light Mode */
+  --main-dm-bg-color: #023047;
+  --main-dm-text-color: #ddd;
+  --main-dm-bg-btn-color: #FFB703;
+  --main-dm-bg-btn-hover: #FB8500;
+  /* Player Colors */
+  --X-Player-color: #fa6969;
+  --O-Player-color: #7883ff;
+}
 
 * {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: var(--main-bg-color);
-    color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
 }
 
 .darkmode {
-    background-color: #333;
-    color: #ddd;
+  background-color: var(--main-dm-bg-color);
+  color: var(--main-dm-text-color);
+}
+
+.playerX {
+  color: #09c372;
+}
+
+.playerO {
+  color: #498afb;
 }
