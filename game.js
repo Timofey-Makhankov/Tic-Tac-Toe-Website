@@ -1,10 +1,29 @@
 let isDarkMode = localStorage.getItem('darkMode');
 const background = document.body;
+const resetButtonSelector = document.getElementById('reset');
+const displayPlayer = document.querySelector('.display-player');
+const boardTile = document.getElementsByClassName('tile');
+const outputText = document.querySelector('#displayText');
+const layoutGrid = document.querySelector(".container")
 
 if (isDarkMode === 'enabled') {
   background.classList.add('darkmode');
+  resetButtonSelector.classList.add('darkmode');
+  layoutGrid.classList.add('darkmode');
+  outputText.classList.add('darkmode');
+  displayPlayer.classList.add('darkmode');
+  for (var i = 0; i < boardTile.length; i++) {
+    boardTile[i].classList.add('darkmode');
+  }
 } else {
   background.classList.remove('darkmode');
+  resetButtonSelector.classList.remove('darkmode');
+  layoutGrid.classList.remove('darkmode');
+  outputText.classList.remove('darkmode');
+  displayPlayer.classList.remove('darkmode');
+  for (var i = 0; i < boardTile.length; i++) {
+    boardTile[i].classList.remove('darkmode');
+  }
 }
 
 // Game Logic
@@ -57,10 +76,18 @@ const changePlayer = () => {
 const announce = (type) => {
   switch (type) {
     case PLAYERO_WON:
-      announcer.innerHTML = 'Player <span class="playerO">O</span> Won';
+      if (isDarkMode === "enabled") {
+        announcer.innerHTML = 'Player <span class="playerO darkmode">O</span> Won';
+      } else {
+        announcer.innerHTML = 'Player <span class="playerO">O</span> Won';
+      }
       break;
     case PLAYERX_WON:
-      announcer.innerHTML = 'Player <span class="playerX">X</span> Won';
+      if (isDarkMode === "enabled") {
+        announcer.innerHTML = 'Player <span class="playerX darkmode">X</span> Won';
+      } else {
+        announcer.innerHTML = 'Player <span class="playerX">X</span> Won';
+      }
       break;
     case TIE:
       announcer.innerText = 'Tie';

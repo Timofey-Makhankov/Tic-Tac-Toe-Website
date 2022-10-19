@@ -18,8 +18,8 @@
   --main-dm-bg-btn-color: #FFB703;
   --main-dm-bg-btn-hover: #FB8500;
   /* Player Colors */
-  --X-Player-color: #fa6969;
-  --O-Player-color: #7883ff;
+  --X-Player-dm-color: #fa6969;
+  --O-Player-dm-color: #7883ff;
 }
 
 * {
@@ -39,9 +39,17 @@ body {
 }
 
 .playerX {
-  color: #09c372;
+  color: var(--X-Player-color);
+}
+
+.playerX.darkmode {
+  color: var(--X-Player-dm-color);
 }
 
 .playerO {
-  color: #498afb;
+  color: var(--O-Player-color);
+}
+
+.playerO.darkmode {
+  color: var(--O-Player-dm-color);
 }

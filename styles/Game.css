@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.hide {
+  display: none;
+}
+
 .container {
   margin: 0 auto;
   display: grid;
@@ -13,6 +17,7 @@
 }
 
 .tile {
+  background-color: #219EBC;
   border: 3px solid black;
   min-width: 100px;
   min-height: 100px;
@@ -20,5 +25,43 @@
   justify-content: center;
   align-items: center;
   font-size: 50px;
+  cursor: pointer;
+}
+
+.tile.darkmode {
+  background-color: #022130;
+}
+
+.display {
+  font-size: 24pt;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.controls {
+  text-align: center;
+}
+
+#reset {
+  background-color: red;
+  border: 3px solid black;
+  border-radius: 8px;
+  color: black;
+  font-size: 20pt;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 5px 30px;
+}
+
+#reset.darkmode {
+  border-color: #FAF9F6;
+  color: #FAF9F6;
+}
+
+#reset:hover {
+  background-color: darkred;
   cursor: pointer;
 }
