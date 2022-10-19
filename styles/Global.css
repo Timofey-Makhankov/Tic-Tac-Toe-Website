@@ -21,7 +21,7 @@ body {
     color: var(--main-text-color);
 }
 
-.dark-mode {
+.darkmode {
     background-color: #333;
     color: #ddd;
 }
