@@ -19,6 +19,7 @@
 5. Realization
 6. Checking
 7. Evaluation
+8. Gant Diagramm
 
 ---
 
@@ -52,3 +53,21 @@ We started to give each of us some tasks we have to work at. We also made a Docs
 ---
 
 ## Realization
+
+## Checking
+
+## Evaluation
+
+## Gant Diagramm
+
+```mermaid
+gantt
+    title A Gantt Diagram
+    dateFormat  DD.MM
+    section Analysis
+    Brainstorming:done,05.09,6d
+    Requirements gathering:done, 05.09, 13d
+    section Design
+    Planning:done,18.09,4d
+```
+
