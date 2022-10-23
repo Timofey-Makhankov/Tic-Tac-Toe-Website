@@ -65,7 +65,7 @@ We started to give each of us some tasks we have to work at. We also made a Docs
 
 ```mermaid
 gantt
-    title A Gantt Diagram
+    title Gantt Diagram of our Project
     dateFormat  DD.MM
     axisFormat  %d.%m.%y
     section Analysis
@@ -73,5 +73,8 @@ gantt
     Requirements gathering:05.09, 13d
     section Design
     Planning:18.09,4d
+    section Implementation
+    Set-up development environment:12.09, 9d
+    section Testing
+    Execute testcases: 24.10, 7d 
 ```
-
