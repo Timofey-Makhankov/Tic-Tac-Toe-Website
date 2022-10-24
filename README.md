@@ -57,6 +57,8 @@ We started to give each of us some tasks we have to work at. We also made a Docs
 
 ## Realization
 
+To realize this project. We started simple: try to host a static HTML File on the local Network. After that create an Idea of how it might look like. We made a sketch drawing of it. We started to make the structure of the website with HTML. We then checked if the CSS Fiule would connect to the HTMl Files. We then started to create the stylesheets for the HTML files. We periodically checked the locally hosted website for the changes. If the Outcome wasn't desired, we would try to resolve it. The next step was to implement Logic to the website with Javascript.
+
 ## Checking
 
 ## Evaluation
@@ -72,7 +74,12 @@ gantt
     Brainstorming:05.09,6d
     Requirements gathering:05.09, 13d
     section Design
-    Planning:18.09,4d
+    Planning:05.09,18.09
+    Review Requirements:18.09,4d
+    Review documents:18.09,4ds
+    Write specification:05.09,18.09
+    Define nameing convention:18.09,7d
+    Write test plan:12.09, 21.09
     section Implementation
     Set-up development environment:12.09, 9d
     section Testing
