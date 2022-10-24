@@ -4,6 +4,10 @@
   <img src="./images/WebsiteIndex.png" width="60%" align="justify">
 </p>
 
+[Website](https://tic-tac-toe-website.vercel.app/)
+---
+
+![Vercel](https://vercelbadge.vercel.app/api/Timofey-Makhankov/Tic-Tac-Toe-Website)
 ---
 
 ## Contributers
@@ -17,10 +21,10 @@ This Project was made by Aurora, Ruben and Timofey
 - [Information](#information)
 - [Decision](#decision)
 - [Planning](#planning)
+  - [Gant Diagramm](#gant-diagramm)
 - [Realization](#realization)
 - [Checking](#checking)
 - [Evaluation](#evaluation)
-- [Gant Diagramm](#gant-diagramm)
 
 ---
 
@@ -51,19 +55,61 @@ The first and most inportant point is the decision, who does which task. We deci
 
 We started to give each of us some tasks we have to work at. We also made a Docs file with the keydates of the project, the milestones, the To-Do list, the requirements and the description of the project.
 
-[Google Document Link](https://docs.google.com/document/d/1Q76CZHwCyf05I1FYw0I5LlIXezh8ZpCCi-Iak7Qj9XI/edit)
+Key Dates:
+01.10.2022 - Submit Project Brief
+06.11.2022 - Submit final project Document
+07.11.2022 - project presentation
 
----
+Information:
+After some Research, We have decided on using Vercel. Because It’s free for hobbyists and is able to deploy with Javascript and not a static HTML Site.
 
-## Realization
+Milestones:
+Finish the planning
+Having a well looking design
+Complete the coding phase
+Publish the Website
+Finish testing phase
+Having a working game
+The project is done
 
-To realize this project. We started simple: try to host a static HTML File on the local Network. After that create an Idea of how it might look like. We made a sketch drawing of it. We started to make the structure of the website with HTML. We then checked if the CSS Fiule would connect to the HTMl Files. We then started to create the stylesheets for the HTML files. We periodically checked the locally hosted website for the changes. If the Outcome wasn't desired, we would try to resolve it. The next step was to implement Logic to the website with Javascript.
+Deadlines:
+M
 
-## Checking
+Criteria:
 
-## Evaluation
+Decision / Log:
 
-## Gant Diagramm
+Evaluation Matrix:
+
+Task List (TODO):
+Timofey:
+Get Javascript working with HTML and CSS
+Make a Game Loop
+Ruben
+Finish writing the ReadMe sheet 
+Helping aurora make the website
+Aurora
+Make a good looking website (i.e. Good UI)
+
+Requirements:
+Be able to play the Game with CP (a Computer)
+Be able to replay 
+Display user Score
+Be able to access it from every device (Smartphone, Laptop, Ipad etc.)
+
+Descriptions:
+Tic Tac Toe - The Game:
+Tic Tac Toe (Noughts and Crosses or Xs and Os) Is a Paper drawn Game, where two players make a 3x3 Grid and draw either an X or an O. The winner is chosen, whoever can make in the Grid a Row of either three Xs or Os. Most of the Time though, it will come to a draw.
+
+Sources:
+https://en.wikipedia.org/wiki/Tic-tac-toe 
+How To Create A Website using HTML & CSS | Step-by-Step Tutorial
+
+Planning:
+
+SMART Goals:
+
+### Gant Diagramm
 
 ```mermaid
 gantt
@@ -85,3 +131,15 @@ gantt
     section Testing
     Execute testcases: 24.10, 7d 
 ```
+
+---
+
+## Realization
+
+To realize this project. We started simple: try to host a static HTML File on the local Network. After that create an Idea of how it might look like. We made a sketch drawing of it. We started to make the structure of the website with HTML. We then checked if the CSS Fiule would connect to the HTMl Files. We then started to create the stylesheets for the HTML files. We periodically checked the locally hosted website for the changes. If the Outcome wasn't desired, we would try to resolve it. The next step was to implement Logic to the website with Javascript.
+
+## Checking
+
+## Evaluation
+
+$\alpha$
