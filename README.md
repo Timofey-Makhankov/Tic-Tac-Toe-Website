@@ -128,8 +128,15 @@ gantt
     Write test plan:12.09, 21.09
     section Implementation
     Set-up development environment:12.09, 9d
+    Setup Jquery:20.09, 5d
+    HTML design: 22.09, 28.09
+    Link Buttons together: 26.09, 02.10
+    Style the Website:01.10, 11.10
+    Add Tic-Tac-Toe Logic:crit,10.10, 23.10
+    Set-up test environment:active, 24.10, 5d
     section Testing
-    Execute testcases: 24.10, 7d 
+    Execute testcases:active,crit,24.10, 7d
+    Execute testcases:active, 24.10, 7d 
 ```
 
 ---
@@ -141,5 +148,3 @@ To realize this project. We started simple: try to host a static HTML File on th
 ## Checking
 
 ## Evaluation
-
-$\alpha$
