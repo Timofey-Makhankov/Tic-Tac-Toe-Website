@@ -53,3 +53,25 @@ body {
 .playerO.darkmode {
   color: var(--O-Player-dm-color);
 }
+
+#back_btn {
+  background-color: var(--main-bg-btn-color);
+  border: 3px solid #1c1c1c;
+  color: #1c1c1c;
+}
+
+#back_btn.darkmode {
+  background-color: var(--main-dm-bg-btn-color);
+  border-color: #1c1c1c;
+  color: #1c1c1c;
+}
+
+#back_btn:hover {
+  background-color: var(--main-bg-btn-hover);
+  cursor: pointer;
+}
+
+#back_btn.darkmode:hover {
+  background-color: var(--main-dm-bg-btn-hover);
+  cursor: pointer;
+}

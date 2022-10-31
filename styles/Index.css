@@ -14,7 +14,7 @@ p {
   font-size: 20pt;
   font-weight: 700;
   margin: 10px;
-  margin-top: 50px;
+  margin-top: 10px;
   padding: 20px;
   text-align: center;
 }
@@ -45,11 +45,34 @@ p {
 }
 
 /* Id's */
+#btn_1 {
+  margin-top: 50px;
+}
+
 #credit {
   font-size: 15pt;
   font-weight: 400;
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
+}
+
+#dark_mode_switcher {
+  margin-top: 40px;
+}
+
+#github {
+  border: 3px solid #1c1c1c;
+  padding: 10px;
+  font-size: 12pt;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#githubLogo {
+  width: 12px;
+  height: 12px;
+  align-items: center;
 }
 
 #Title {

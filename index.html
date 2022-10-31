@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="styles/Index.css" />
     <link rel="stylesheet" href="styles/Global.css" />
     <script src="index.js" defer></script>
@@ -13,10 +13,44 @@
   <body>
     <h1 id="Title">Tic-Tac-Toe</h1>
     <div class="options">
-      <button onclick="location.href='./game.html'" type="button" class="button">PLAY</button>
+      <button
+        onclick="location.href='./game.html'"
+        type="button"
+        class="button"
+        id="btn_1"
+      >
+        1 Player
+      </button>
     </div>
     <div class="options">
-      <button type="button" class="button" id="dark_mode_switcher">DARK MODE</button>
+      <button
+        onclick="location.href='./game.html'"
+        type="button"
+        class="button"
+        id="btn_2"
+      >
+        2 Player
+      </button>
+    </div>
+    <div class="options">
+      <button type="button" class="button" id="dark_mode_switcher">
+        DARK MODE
+      </button>
+    </div>
+    <div class="options">
+      <button
+        onclick="location.href='https://github.com/Timofey-Makhankov/Tic-Tac-Toe-Website'"
+        type="button"
+        class="button"
+        id="github"
+      >
+        <img
+          id="githubLogo"
+          src="images/Octicons-mark-github.svg"
+          alt="Github Icon"
+        />
+        Github
+      </button>
     </div>
     <p id="credit">Tic-Tac-Toe Game by Aurora, Ruben and Timofey</p>
   </body>

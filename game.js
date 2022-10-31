@@ -4,7 +4,8 @@ const resetButtonSelector = document.getElementById('reset');
 const displayPlayer = document.querySelector('.display-player');
 const boardTile = document.getElementsByClassName('tile');
 const outputText = document.querySelector('#displayText');
-const layoutGrid = document.querySelector(".container")
+const layoutGrid = document.querySelector(".container");
+const backBtn = document.querySelector('#back_btn');
 
 if (isDarkMode === 'enabled') {
   background.classList.add('darkmode');
@@ -12,6 +13,7 @@ if (isDarkMode === 'enabled') {
   layoutGrid.classList.add('darkmode');
   outputText.classList.add('darkmode');
   displayPlayer.classList.add('darkmode');
+  backBtn.classList.add('darkmode');
   for (var i = 0; i < boardTile.length; i++) {
     boardTile[i].classList.add('darkmode');
   }
@@ -21,6 +23,7 @@ if (isDarkMode === 'enabled') {
   layoutGrid.classList.remove('darkmode');
   outputText.classList.remove('darkmode');
   displayPlayer.classList.remove('darkmode');
+  backBtn.classList.remove('darkmode');
   for (var i = 0; i < boardTile.length; i++) {
     boardTile[i].classList.remove('darkmode');
   }
