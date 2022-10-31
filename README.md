@@ -22,7 +22,7 @@ This Project was made by Aurora, Ruben and Timofey
 - [Decision](#decision)
 - [Planning](#planning)
   - [Resource Plan](#resource-plan)
-  - [Gant Diagramm](#gant-diagramm)
+  - [Gantt Diagramm](#gantt-diagramm)
 - [Realization](#realization)
 - [Checking](#checking)
 - [Evaluation](#evaluation)
@@ -126,7 +126,7 @@ Planning:
 
 SMART Goals:
 
-### Gant Diagramm
+### Gantt Diagramm
 
 ```mermaid
 gantt
@@ -138,22 +138,26 @@ gantt
     Requirements gathering:05.09, 13d
     section Design
     Planning:05.09,18.09
+    Write specification:05.09,18.09
+     Write test plan:12.09, 21.09
     Review Requirements:18.09,4d
     Review documents:18.09,4ds
-    Write specification:05.09,18.09
     Define nameing convention:18.09,7d
-    Write test plan:12.09, 21.09
     section Implementation
     Set-up development environment:12.09, 9d
     Setup Jquery:20.09, 5d
     HTML design: 22.09, 28.09
     Link Buttons together: 26.09, 02.10
     Style the Website:01.10, 11.10
-    Add Tic-Tac-Toe Logic:crit,10.10, 23.10
-    Set-up test environment:active, 24.10, 5d
+    Add Tic-Tac-Toe Logic:10.10, 23.10
+    Set-up test environment: 24.10, 5d
     section Testing
-    Execute testcases:active,crit,24.10, 7d
-    Execute testcases:active, 24.10, 7d
+    Execute testcases:24.10, 7d
+    fix testcases:28.10, 03.11
+    Add Dumb AI:active,31.10, 05.11
+    Add Buttons:active,01.11, 06.11
+    Finish Documentation:active,02.11, 06.11
+    Finish Powerpoint:active,05.11, 2d
 ```
 
 ---

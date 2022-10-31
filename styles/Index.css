@@ -63,15 +63,15 @@ p {
 #github {
   border: 3px solid #1c1c1c;
   padding: 10px;
-  font-size: 12pt;
+  font-size: 16pt;
   position: absolute;
   left: 0;
   bottom: 0;
 }
 
 #githubLogo {
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
   align-items: center;
 }
 
