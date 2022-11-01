@@ -38,7 +38,7 @@ The IPERKA system are different easy steps to follow while making a projekt. The
 
 ## Information
 
-At the beginning we had no idea what we should do. After some examples from our teacher we wanted to made code a calculator. We searched some informations about how to make a calculater but it is very complicated so we decided to make an other project. Timofey had the idea to make a Tic-Tac-Toe game on a website and we agreed. Under Sources you can see the links to which we did reasearch.
+At the beginning we had no idea what we should do. After some examples from our teacher we wanted to made code a calculator. We searched some informations about how to make a calculater but it is very complicated so we decided to make another project. Timofey had the idea to make a Tic-Tac-Toe game on a website and we agreed. Under Sources you can see the links to which we did reasearch.
 
 Sources:
 
@@ -58,7 +58,7 @@ The first and most inportant point is the decision who does which task.
 - Timofey - The backend with Javascript & J-Query
 - Ruben - Writes the documentation and does the testing
 
-We will also help each other if we need some help. Aurora decided to make the design with HTML and CSS because it's the only programming language she knows for frontend stuff. Timofey Decided to work with Java because he already did some stuff with Java and he uses J-Query for helping him to not write so much code. Ruben decide to write in a ReadMe file in our github, because everyone can change something in this file and it's easy for everyone to write in.
+We will also help each other if we need some help. Aurora decided to make the design with HTML and CSS because it's the only programming language she knows for frontend stuff. Timofey Decided to work with Java because he already did some stuff with Java and he uses J-Query to help him to not write so much code. Ruben decided to write in a ReadMe file in our github, because everyone can change something in this file and it's easy for everyone to write in.
 
 <p align="center">
   <img src="./images/DesicionMatrix.png" width="95%" align="justify">
