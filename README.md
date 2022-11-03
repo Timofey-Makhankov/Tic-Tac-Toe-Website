@@ -1,5 +1,11 @@
 # Tic Tac Toe Webiste
 
+TODO:
+Tasklist
+resource Plan
+
+
+
 <p align="center">
   <img src="./images/WebsiteIndex.png" width="60%" align="justify">
 </p>
@@ -25,7 +31,7 @@ This Project was made by Aurora, Ruben and Timofey
   - [Gantt Diagramm](#gantt-diagramm)
 - [Realization](#realization)
 - [Checking](#checking)
-- [Evaluation](#evaluation)
+- [Assessment](#assessment)
 
 ---
 
@@ -39,6 +45,8 @@ The IPERKA system are different easy steps to follow while making a projekt. The
 ## Information
 
 At the beginning we had no idea what we should do. After some examples from our teacher we wanted to made code a calculator. We searched some informations about how to make a calculater but it is very complicated so we decided to make an other project. Timofey had the idea to make a Tic-Tac-Toe game on a website and we agreed. Under Sources you can see the links to which we did reasearch.
+
+This [Link](https://mikkegoes.com/javascript-projects-for-beginners/) was the inspiration for the Tic-Tac-Toe Website.
 
 Sources:
 
@@ -59,6 +67,8 @@ The first and most inportant point is the decision who does which task.
 - Ruben - Writes the documentation and does the testing
 
 We will also help each other if we need some help. Aurora decided to make the design with HTML and CSS because it's the only programming language she knows for frontend stuff. Timofey Decided to work with Java because he already did some stuff with Java and he uses J-Query for helping him to not write so much code. Ruben decide to write in a ReadMe file in our github, because everyone can change something in this file and it's easy for everyone to write in.
+
+### Decision Matrix
 
 <p align="center">
   <img src="./images/DesicionMatrix.png" width="95%" align="justify">
@@ -92,25 +102,53 @@ Milestones:
 
 Criteria:
 
+- To be able to use the Website and play the Game
+- to see the website on diffrent screen sizes (Mobile-phone, Tablet & Laptop)
+- To ahve a pleasing design for the website
+
 Decision / Log:
 
-- You can check on decisions on [Github](https://github.com/Timofey-Makhankov/Tic-Tac-Toe-Website/issues)
+- You can check on decisions on [Github](https://github.com/Timofey-Makhankov/Tic-Tac-Toe-Website/issues) or on a CSV File on this [link](README.md)
 
 Evaluation Matrix:
+
+!needed
 
 !!in progress!!
 
 ### Resource Plan
 
-Task List (TODO):
-Timofey:
-Get Javascript working with HTML and CSS
-Make a Game Loop
-Ruben
-Finish writing the ReadMe sheet
-Helping aurora make the website
-Aurora
-Make a good looking website (i.e. Good UI)
+- Timofey:
+
+1. code the Logic for the Game on the Website -> 2 Weeks
+2. Co-Designer for the Website -> 1 Week
+
+- Ruben:
+
+1. write the documentation for the project -> The Whole Project Time
+2. todo the testing for the Website -> 2 Weeks
+
+- Aurora:
+  
+1. Web Designer for the Website -> 3 Weeks
+2. Powerpoint preperation -> 3 Days
+
+#### Task List (TODO)
+
+- Timofey:
+
+1. Get Javascript working with HTML and CSS
+2. Make a Game Loop
+
+- Ruben:
+
+1. Finish writing the ReadMe sheet
+2. Helping aurora make the website
+
+- Aurora:
+
+1. Make a good looking website (i.e. Good UI)
+2. Create the Powerpoint for the Project
 
 Requirements:
 Be able to play the Game with CP (a Computer)
@@ -121,10 +159,6 @@ Be able to access it from every device (Smartphone, Laptop, Ipad etc.)
 Descriptions:
 Tic Tac Toe - The Game:
 Tic Tac Toe (Noughts and Crosses or Xs and Os) Is a Paper drawn Game, where two players make a 3x3 Grid and draw either an X or an O. The winner is chosen, whoever can make in the Grid a Row of either three Xs or Os. Most of the Time though, it will come to a draw.
-
-Planning:
-
-SMART Goals:
 
 ### Gantt Diagramm
 
@@ -154,8 +188,8 @@ gantt
     section Testing
     Execute testcases:24.10, 7d
     fix testcases:28.10, 03.11
-    Add Dumb AI:active,31.10, 05.11
-    Add Buttons:active,01.11, 06.11
+    Add Dumb AI:31.10, 05.11
+    Add Buttons:01.11, 06.11
     Finish Documentation:active,02.11, 06.11
     Finish Powerpoint:active,05.11, 2d
 ```
@@ -185,4 +219,14 @@ The next step was to implement Logic to the website with Javascript.
 
 ## Checking
 
-## Evaluation
+## Assessment
+
+As a team, we have talked about how the project went. What was the good, the difficult and what we can improve in the future.
+
+### The Good
+
+### The Difficult
+
+### Improvements
+
+#### Technical
