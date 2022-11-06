@@ -1,7 +1,7 @@
 # Tic Tac Toe Webiste
 
 <p align="center">
-  <img src="./images/WebsiteIndex.png" width="60%" align="justify">
+  <img src="./images/WebsiteIndex.png" width="80%" align="justify">
 </p>
 
 ## The [Website](https://tic-tac-toe-website.vercel.app/)
@@ -36,9 +36,9 @@ This Project was made by Aurora, Ruben and Timofey
 
 To the [Docs](https://github.com/Timofey-Makhankov/Tic-Tac-Toe-Website/tree/main/docs) Folder. There is:
 
-- Powerpoint
-- All Github Issues as a .CSV File
-- Assignment Brief
+- [Powerpoint](docs/Assignment.pptx)
+- [All Github Issues as a .CSV File](docs/issues.csv)
+- [Assignment Brief](docs/m431_assignment_brief.pdf)
 
 ---
 
@@ -115,7 +115,7 @@ Criteria:
 
 Decision / Log:
 
-- You can check on decisions on [Github](https://github.com/Timofey-Makhankov/Tic-Tac-Toe-Website/issues) or on a CSV File on this [link](./Docs/)
+- You can check on decisions on [Github](https://github.com/Timofey-Makhankov/Tic-Tac-Toe-Website/issues) or on a CSV File on this [link](docs/issues.csv)
 
 ### Resource Plan
 
@@ -220,6 +220,11 @@ The next step was to implement Logic to the website with Javascript.
 
 ## Checking
 
+We have created a testing protocol for the website to be able to see, if the website has any problems that we didn't expect.
+You can check it out with this [Link](docs/Testing%20protocol.ods)
+
+Everything that we tested has passed and there is no bugs in the Website. We are able to make a release canditate for it.
+
 ## Assessment
 
 As a team, we have talked about how the project went. What was the good, the difficult and what we can improve in the future.
@@ -247,5 +252,3 @@ As a team, we have talked about how the project went. What was the good, the dif
 
 - when working on a version control, we will use a diffrent Branch (dev) instead of using the main (master) Branch. Use the main Branch as the release branch.
 - create a project, with the tools you **know**. And don't try to learn a new Tool in the middle of the Project.
-
-gh issue list --limit 1000 --state all | tr '\t' ',' > issues.csv
