@@ -39,6 +39,7 @@ To the [Docs](https://github.com/Timofey-Makhankov/Tic-Tac-Toe-Website/tree/main
 - [Powerpoint](docs/Assignment.pptx)
 - [All Github Issues as a .CSV File](docs/issues.csv)
 - [Assignment Brief](docs/m431_assignment_brief.pdf)
+- [Testing Protocol](docs/Testing%20protocol.ods)
 
 ---
 
