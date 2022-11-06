@@ -1,11 +1,5 @@
 # Tic Tac Toe Webiste
 
-TODO:
-Tasklist
-resource Plan
-
-
-
 <p align="center">
   <img src="./images/WebsiteIndex.png" width="60%" align="justify">
 </p>
@@ -24,14 +18,27 @@ This Project was made by Aurora, Ruben and Timofey
 
 ## Table of contents
 
+- [Introduction](#introduction)
 - [Information](#information)
 - [Decision](#decision)
+  - [Decision Matrix](#decision-matrix)
 - [Planning](#planning)
   - [Resource Plan](#resource-plan)
+  - [Task List](#task-list-todo)
   - [Gantt Diagramm](#gantt-diagramm)
 - [Realization](#realization)
 - [Checking](#checking)
 - [Assessment](#assessment)
+  - [The Good](#the-good)
+  - [difficulty](#the-difficult)
+  - [The Improvements](#improvements)
+    - [The technicality](#technical)
+
+To the [Docs](https://github.com/Timofey-Makhankov/Tic-Tac-Toe-Website/tree/main/docs) Folder. There is:
+
+- Powerpoint
+- All Github Issues as a .CSV File
+- Assignment Brief
 
 ---
 
@@ -108,13 +115,7 @@ Criteria:
 
 Decision / Log:
 
-- You can check on decisions on [Github](https://github.com/Timofey-Makhankov/Tic-Tac-Toe-Website/issues) or on a CSV File on this [link](README.md)
-
-Evaluation Matrix:
-
-!needed
-
-!!in progress!!
+- You can check on decisions on [Github](https://github.com/Timofey-Makhankov/Tic-Tac-Toe-Website/issues) or on a CSV File on this [link](./Docs/)
 
 ### Resource Plan
 
@@ -190,8 +191,8 @@ gantt
     fix testcases:28.10, 03.11
     Add Dumb AI:31.10, 05.11
     Add Buttons:01.11, 06.11
-    Finish Documentation:active,02.11, 06.11
-    Finish Powerpoint:active,05.11, 2d
+    Finish Documentation:02.11, 06.11
+    Finish Powerpoint:05.11, 2d
 ```
 
 ---
@@ -225,8 +226,26 @@ As a team, we have talked about how the project went. What was the good, the dif
 
 ### The Good
 
+- We were able to make a project into reality
+- Our Teamwork was good
+- if we had some difficulties, we helped eachother
+- we were very motiviated to finish the project.
+
 ### The Difficult
+
+- Our time managment wasn't great. there were some deadlines that were overdue.
+- Our planning wasn't really thought-through. We only had a rough idea of what we wanted to do.
+- Some of the work distribution wasn't ideal.
+- One of the tools we weren't able to use, because we had low knowladge and didn't have time to learn it.
 
 ### Improvements
 
+- Next time, we will make time managment a priority.
+- we will improve the work distribution. So that everyone is happy with what they are supposed to do.
+
 #### Technical
+
+- when working on a version control, we will use a diffrent Branch (dev) instead of using the main (master) Branch. Use the main Branch as the release branch.
+- create a project, with the tools you **know**. And don't try to learn a new Tool in the middle of the Project.
+
+gh issue list --limit 1000 --state all | tr '\t' ',' > issues.csv
