@@ -207,7 +207,9 @@ The sketch:
   <img src="./images/sketch.jpeg" width="50%" align="justify">
 </p>
 
-We started to make the structure of the website with HTML. We then checked if the CSS Fiule would connect to the HTMl Files. We then started to create the stylesheets for the HTML files. We periodically checked the locally hosted website for the changes.
+Because we wanted to host the Website on a hosting service, we had to create an account and link the Repo of the project to the hosting Provider. After testing that it worked, we started on actually creating the Website
+
+We started to make the structure of the website with HTML. We then checked if the CSS File would connect to the HTML Files. We then started to create the stylesheets for the HTML files. We periodically checked the locally hosted website for the changes.
 
 If the Outcome wasn't desired, we would try to resolve it.
 
@@ -217,12 +219,27 @@ Some Examples are:
 - a button event wasn't executing
 - wrong color and/or size
 
-The next step was to implement Logic to the website with Javascript.
+### Github Issues
+
+![Github Issues](images/Github%20Issues.png)
+
+The next step was to implement Logic to the website with Javascript. We first link the Javascript File to each HTML File. When that was working. We started to implement the Logic. Each time we compile it, we test, if the feature even worked or not. After some Time we were able to implement JQuery. There was some problems actually using Jquery and after some time we couldn't implement it, because we had no time. The Same goes to bring a dumb AI.
+
+We gave the website some testing to other people to try out and give feedback. In the end we got some Feedback for the project. Some of the Feedback was:
+
+- Back Button in the Game Site
+- Github Button
 
 ## Checking
 
 We have created a testing protocol for the website to be able to see, if the website has any problems that we didn't expect.
 You can check it out with this [Link](docs/Testing%20protocol.ods)
+
+### Testing Protocol
+
+![Testing Protocol Image](images/Testing%20Protocol.png)
+
+We first wrote, what you can do on the Website. We gave each ability on the website an Id, a Title and a description. When we got all of our testing Protocols. We started from the Top to Bottom. First seeing if it does do, what we want. If The Ability works as expected, we give the status a passed. If Not, We give it a Failed. After the First Round, we try to fix the failed Protocol and Redo testing. If Everything has Passed, this means there are no **Major** Bugs in the Project
 
 Everything that we tested has passed and there is no bugs in the Website. We are able to make a release canditate for it.
 
